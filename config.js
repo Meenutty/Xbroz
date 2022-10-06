@@ -1,10 +1,4 @@
-/* Copyright (C) 2022 X-Electra.
-
-Licensed under the  GPL-3.0 License;
-you may not use this file except in compliance with the License.
-
-X-asena X-Electra
-*/
+//Meenu-MD
 
 const { Sequelize } = require("sequelize");
 const fs = require("fs");
@@ -26,12 +20,12 @@ module.exports = {
       : "^[,]",
   RMBG_KEY: process.env.RMBG_KEY || false,
   BRANCH: "master",
-  PACKNAME: process.env.PACKNAME || "X-asena",
+  PACKNAME: process.env.PACKNAME || "MEENU",
   WELCOME_MSG:
     process.env.WELCOME_MSG ||
     "Hi @user Welcome to @gname",
   GOODBYE_MSG: process.env.GOODBYE_MSG || "Hi @user It was Nice Seeing you",
-  AUTHOR: process.env.AUTHOR || "X-electra",
+  AUTHOR: process.env.AUTHOR || "MEENUS",
   DATABASE_URL: DATABASE_URL,
   DATABASE:
     DATABASE_URL === "./lib/database.db"
@@ -50,10 +44,10 @@ module.exports = {
           },
           logging: false,
         }),
-  SUDO: process.env.SUDO || "918113921898,919544951258",
+  SUDO: process.env.SUDO || "918075641889,0",
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || " ",
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || " ",
-  OWNER_NAME: process.env.OWNER_NAME || "Neeraj-X0",
-  BOT_NAME: process.env.BOT_NAME || "X-asena",
+  OWNER_NAME: process.env.OWNER_NAME || "JACKZ",
+  BOT_NAME: process.env.BOT_NAME || "MEENU",
   WORK_TYPE: process.env.WORK_TYPE || "public",
 };
