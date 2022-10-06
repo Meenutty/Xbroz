@@ -19,7 +19,7 @@ module.exports = {
       ? "^"
       : "^[,]",
   RMBG_KEY: process.env.RMBG_KEY || false,
-  BRANCH: "master",
+  BRANCH: "main",
   PACKNAME: process.env.PACKNAME || "MEENU",
   WELCOME_MSG:
     process.env.WELCOME_MSG ||
